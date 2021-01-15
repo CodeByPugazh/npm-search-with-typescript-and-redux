@@ -17,9 +17,6 @@ const AppComponent: React.FC = () => {
     <div>
       <form className="row g-3" onSubmit={handleSubmit}>
         <div className="col-md-6">
-          <label htmlFor="search" className="visually-hidden">
-            Email
-          </label>
           <input
             type="text"
             className="form-control"
